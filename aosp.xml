@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Repositories -->
+
+  <remote name="github" fetch="http://github.com/pundiramit" />
+
+  <!-- Beryllium (Poco F1) device config and prebuilt kernel -->
+  <project path="device/xiaomi/beryllium" name="device-xiaomi-beryllium" revision="master" remote="github" groups="default" />
+
+</manifest>
