@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github" fetch="https://github.com/pundiramit" />
+
+  <!-- Beryllium (Poco F1) kernel source tracking common/android-mainline -->
+  <project path="beryllium" name="linux" revision="beryllium-android-mainline" remote="github" />
+
+</manifest>
