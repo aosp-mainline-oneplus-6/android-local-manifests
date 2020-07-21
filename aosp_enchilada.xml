@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Repositories -->
+
+  <remote name="github" fetch="http://github.com/aosp-mainline-oneplus-6" />
+
+  <!-- Enchilada / Fajita (OnePlus 6 / T) device config and kernel repo -->
+  <project path="device/oneplus/enchilada" name="device-oneplus-enchilada" revision="master" remote="github" groups="default" />
+  <project path="kernel/oneplus/sdm845" name="enchilada-android-mainline" revision="enchilada-android" remote="github" />
+
+</manifest>

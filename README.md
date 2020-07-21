@@ -1,2 +1,2 @@
 # android-local-manifests
-AOSP local manifests file
+AOSP Mainline local manifests file for OnePlus 6
